@@ -1,3 +1,4 @@
+require('./server.js');
 const cluster = require('cluster');
 const { spawn } = require('child_process');
 const path = require('path');
